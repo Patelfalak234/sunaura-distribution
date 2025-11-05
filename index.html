@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunAura - RACOLD अधिकृत वितरक</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a6f 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        header p {
+            font-size: 1.3em;
+            margin-top: 10px;
+        }
+        
+        .section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 2em;
+            border-bottom: 3px solid #ff6b6b;
+            padding-bottom: 10px;
+        }
+        
+        .address-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .product-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .product-card h3 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        
+        .product-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .product-card li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.3);
+        }
+        
+        .product-card li:last-child {
+            border-bottom: none;
+        }
+        
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        
+        .project-card {
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+        
+        .project-card h3 {
+            color: #333;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+        
+        .project-card p {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        
+        footer {
+            background: white;
+            color: #667eea;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            .products, .projects {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌟 SunAura 🌟</h1>
+            <p>RACOLD का अधिकृत वितरक</p>
+            <p style="font-size: 1.1em; margin-top: 15px;">गुणवत्ता और विश्वास का प्रतीक</p>
+        </header>
+        
+        <div class="section">
+            <h2>📍 हमारा पता</h2>
+            <div class="address-box">
+                <strong>SunAura Distribution</strong><br>
+                RACOLD अधिकृत वितरक<br>
+                📞 संपर्क करें: [आपका फोन नंबर]<br>
+                📧 ईमेल: [आपका ईमेल]<br>
+                🌐 वेबसाइट: www.sunaura.com
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🔥 हमारे उत्पाद</h2>
+            <div class="products">
+                <div class="product-card">
+                    <h3>गीजर (Water Heaters)</h3>
+                    <ul>
+                        <li>✓ इलेक्ट्रिक गीजर</li>
+                        <li>✓ इंस्टेंट गीजर</li>
+                        <li>✓ स्टोरेज गीजर</li>
+                        <li>✓ ऊर्जा बचत तकनीक</li>
+                        <li>✓ 5 साल की वारंटी</li>
+                    </ul>
+                </div>
+                
+                <div class="product-card">
+                    <h3>हीट पंप (Heat Pumps)</h3>
+                    <ul>
+                        <li>✓ व्यावसायिक हीट पंप</li>
+                        <li>✓ आवासीय हीट पंप</li>
+                        <li>✓ उच्च क्षमता वाले सिस्टम</li>
+                        <li>✓ पर्यावरण के अनुकूल</li>
+                        <li>✓ कम बिजली खपत</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🏆 सफल परियोजनाएं</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>🎓 NIT जमशेदपुर हॉस्टल परियोजना</h3>
+                    <p>
+                        <strong>स्थान:</strong> राष्ट्रीय प्रौद्योगिकी संस्थान, जमशेदपुर<br>
+                        <strong>उत्पाद:</strong> हीट पंप सिस्टम<br>
+                        <strong>विवरण:</strong> छात्र हॉस्टल के लिए उच्च क्षमता वाले हीट पंप की स्थापना। यह परियोजना सैकड़ों छात्रों को गर्म पानी की निरंतर आपूर्ति प्रदान करती है।
+                    </p>
+                    <span class="badge">✅ पूर्ण</span>
+                </div>
+                
+                <div class="project-card">
+                    <h3>🏨 बोकारो होटल परियोजना</h3>
+                    <p>
+                        <strong>स्थान:</strong> बोकारो, झारखंड<br>
+                        <strong>उत्पाद:</strong> हीट पंप सिस्टम<br>
+                        <strong>विवरण:</strong> प्रीमियम होटल के लिए व्यावसायिक हीट पंप समाधान। ऊर्जा दक्षता और विश्वसनीयता के साथ 24x7 गर्म पानी की सुविधा।
+                    </p>
+                    <span class="badge">✅ पूर्ण</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>💡 हमें क्यों चुनें?</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px;">
+                <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; text-align: center;">
+                    <h3 style="color: #667eea; margin-bottom: 10px;">✓ अधिकृत वितरक</h3>
+                    <p>RACOLD का आधिकारिक भागीदार</p>
+                </div>
+                <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; text-align: center;">
+                    <h3 style="color: #667eea; margin-bottom: 10px;">✓ गुणवत्ता की गारंटी</h3>
+                    <p>प्रमाणित उत्पाद और सेवाएं</p>
+                </div>
+                <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; text-align: center;">
+                    <h3 style="color: #667eea; margin-bottom: 10px;">✓ विशेषज्ञ टीम</h3>
+                    <p>अनुभवी तकनीशियन और सपोर्ट</p>
+                </div>
+                <div style="padding: 20px; background: #f8f9fa; border-radius: 10px; text-align: center;">
+                    <h3 style="color: #667eea; margin-bottom: 10px;">✓ बड़ी परियोजनाएं</h3>
+                    <p>सफल व्यावसायिक स्थापनाएं</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <h3>संपर्क करें</h3>
+            <p>अधिक जानकारी के लिए आज ही हमसे संपर्क करें!</p>
+            <p style="margin-top: 15px; font-size: 1.1em;">
+                <strong>SunAura - आपके विश्वास का साथी</strong>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
